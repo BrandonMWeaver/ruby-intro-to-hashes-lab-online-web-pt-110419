@@ -39,4 +39,5 @@ def monopoly_with_fourth_tier
     value = "$#{100 * multiplier}"
     multiplier += 1
   end
+  return hash
 end
