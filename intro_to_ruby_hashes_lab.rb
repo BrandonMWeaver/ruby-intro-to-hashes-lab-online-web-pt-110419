@@ -15,6 +15,7 @@ def monopoly_with_second_tier
   hash[:railroads][:pieces] = 4
   hash[:railroads][:names] = {}
   hash[:railroads][:rent_in_dollars] = {}
+  return hash
 end
 
 def monopoly_with_third_tier
