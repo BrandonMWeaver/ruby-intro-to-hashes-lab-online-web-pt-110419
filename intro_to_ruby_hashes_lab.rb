@@ -7,11 +7,14 @@ def actor
 end
 
 def monopoly
-	monopoly = { railroads: {} }
+	return { railroads: {} }
 end
 
 def monopoly_with_second_tier
-  
+  hash = monopoly
+  hash[:railroads][:pieces] = 4
+  hash[:railroads][:names] = {}
+  hash[:railroads][:rent_in_dollars] = {}
 end
 
 def monopoly_with_third_tier
