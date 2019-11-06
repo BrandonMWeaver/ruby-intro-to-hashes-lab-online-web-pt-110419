@@ -24,10 +24,13 @@ def monopoly_with_third_tier
   hash[:railroads][:rent_in_dollars][:two_pieces_owned] = 50
   hash[:railroads][:rent_in_dollars][:three_pieces_owned] = 100
   hash[:railroads][:rent_in_dollars][:four_pieces_owned] = 200
+  hash[:railroads][:names][:reading_railroad] = {}
+  hash[:railroads][:names][:pennsylvania_railroad] = {}
+  hash[:railroads][:names][:b_and_o_railroad] = {}
+  hash[:railroads][:names][:shortline] = {}
   return hash
 end
 
 def monopoly_with_fourth_tier
-	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
-
+  
 end
