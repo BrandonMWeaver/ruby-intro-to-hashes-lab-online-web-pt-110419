@@ -35,6 +35,7 @@ def monopoly_with_fourth_tier
   hash = monopoly_with_third_tier
   multiplier = 1
   hash[:railroads][:names].each do |key|
+    key = "mortgage_value"
     key["mortgage_value"] = "$#{100 * multiplier}"
     multiplier += 1
   end
